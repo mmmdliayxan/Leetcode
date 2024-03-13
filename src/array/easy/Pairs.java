@@ -1,7 +1,7 @@
 package array.easy;
 
 public class Pairs {
-    public int numIdenticalPairs(int[] nums) {
+    public static int numIdenticalPairs(int[] nums) {
         int count=0;
         for(int i=0;i<nums.length;i++){
             for(int j=i+1;j<nums.length;j++){
@@ -11,5 +11,10 @@ public class Pairs {
             }
         }
         return count;
+    }
+
+    public static void main(String[] args) {
+        int[] array={4,4,5,7,6,5,4};
+        System.out.println(numIdenticalPairs(array));
     }
 }
