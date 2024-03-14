@@ -31,5 +31,6 @@ public class ValidParantheses {
         Scanner sc =new Scanner(System.in);
         String s = sc.next();
         System.out.println(isValid(s));
+        //this is main method
     }
 }
