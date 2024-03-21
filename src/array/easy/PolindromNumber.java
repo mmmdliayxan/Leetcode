@@ -1,7 +1,7 @@
 package array.easy;
 
 public class PolindromNumber {
-    public boolean isPalindrome(int x) {
+    public static boolean isPalindrome(int x) {
         if(x<0){
             return false;
         }
@@ -19,5 +19,9 @@ public class PolindromNumber {
         }
         return true;
 
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isPalindrome(121));
     }
 }
