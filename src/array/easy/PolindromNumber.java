@@ -1,5 +1,7 @@
 package array.easy;
 
+import java.math.BigInteger;
+
 public class PolindromNumber {
     public static boolean isPalindrome(int x) {
         if(x<0){
